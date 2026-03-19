@@ -1,0 +1,23 @@
+packages:
+  "framer-motion": "For smooth transitions and interactive elements"
+  "recharts": "For rendering beautiful job and habit statistics charts"
+  "date-fns": "For date formatting and habit streak calculations"
+  "react-hook-form": "For robust form state management"
+  "@hookform/resolvers": "For Zod validation integration"
+  "zod": "For schema validation on forms"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes without conflicts"
+  "@radix-ui/react-dialog": "For accessible modals"
+  "@radix-ui/react-slot": "For Radix UI polymorphic components"
+  "@radix-ui/react-label": "For accessible labels"
+  "@radix-ui/react-toast": "For toast notifications"
+
+images:
+  - path: "artifacts/jobtracker/public/images/dashboard-hero.png"
+    description: "Abstract geometric pattern with deep indigo and slate blue colors, professional corporate aesthetic, subtle gradients"
+    aspect_ratio: "16:9"
+
+notes:
+  - Assuming `@workspace/api-client-react` exports all hooks and types generated from the OpenAPI spec.
+  - Assuming `status` fields match typical enums (e.g., 'Applied', 'Interview').
+  - Leveraging standard shadcn-like UI component structures expected in `src/components/ui`.
